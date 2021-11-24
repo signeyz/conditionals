@@ -122,6 +122,7 @@ if (user1 === true && user2 === false) {
 }
 
 // I can use the OR operator so that either one can be true
+
 let user3 = true;
 let user4 = false;
 
