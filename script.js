@@ -44,3 +44,25 @@ let somethingTrue = true;
 if (somethingTrue === true) {
   console.log('I am true');
 }
+
+// Else statements
+// This is when the if statement turns out false, it goes to the next line which is an else statement
+
+if (false) {
+  // do something
+} else {
+  // do something else because if was false
+}
+
+// Else if statement
+
+let a = true;
+let b = false;
+
+if (a === false) {
+  console.log('Do something because it is true');
+} else if (b === true) {
+  console.log('Do something if a false but b is true');
+} else {
+  console.log('If a is false and b is false');
+}
