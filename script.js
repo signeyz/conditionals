@@ -112,7 +112,7 @@ if (jabby === true) {
   // do something
 }
 
-// Next is logical operator like &&, which means both conoditions must be what I state
+// Next is logical operator like &&, which means both conditions must be what I state
 
 let user1 = true;
 let user2 = false;
@@ -141,3 +141,11 @@ if (user5 === true && user6 === false && (user7 === true || user8 === true)) {
 } else {
   console.log('Ah man, they do not match');
 }
+
+// Ternary operator
+// Syntax is <condition> ? <expression1> : <expression2>
+// The <condition> is evaluated as a boolean, the operator runs first expression if the condition is true or it runs the second expression if the condition is true
+
+let isTrue = true;
+
+isTrue ? console.log('It is true') : console.log('Ah, it is false');
