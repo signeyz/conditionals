@@ -66,3 +66,22 @@ if (a === false) {
 } else {
   console.log('If a is false and b is false');
 }
+
+// Switch is great when your if, else if and else statements get too cluttered.
+// In the parenthesis I will add the variable
+// In the code of block I will add all the cases I want it to handle
+// The keyword called break is always between cases, this is necessary for each case in order to identify the case based on the value of the variable
+// The keyword default is a catch all
+
+let age = 21;
+
+switch (age) {
+  case 20:
+    console.log(20);
+    break;
+  case 21:
+    console.log(21);
+    break;
+  default:
+    console.log('Not identified');
+}
