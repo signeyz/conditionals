@@ -149,3 +149,9 @@ if (user5 === true && user6 === false && (user7 === true || user8 === true)) {
 let isTrue = true;
 
 isTrue ? console.log('It is true') : console.log('Ah, it is false');
+
+let tryingTernary = false;
+
+tryingTernary
+  ? console.log('This is showing because it is true')
+  : console.log('If you see this it is false');
