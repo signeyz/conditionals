@@ -85,3 +85,59 @@ switch (age) {
   default:
     console.log('Not identified');
 }
+
+// Nesting if statements
+// You can see if one of the variables is true and the other is false it will not print out anything to the console.
+let abby = true;
+let babby = false;
+
+if (abby === true) {
+  if ((abby === true, babby === true)) {
+    console.log('abby and babby are true');
+  }
+} else {
+  // do something
+}
+
+// However, if both variables are true based on the nested if statement, then it will print out the the message to the console that is in the nested if statement.
+
+let jabby = true;
+let tabby = true;
+
+if (jabby === true) {
+  if ((jabby === true, tabby === true)) {
+    console.log('jabby and tabby are true');
+  }
+} else {
+  // do something
+}
+
+// Next is logical operator like &&, which means both conoditions must be what I state
+
+let user1 = true;
+let user2 = false;
+
+if (user1 === true && user2 === false) {
+  console.log('Excellent, both conditions have matched!');
+}
+
+// I can use the OR operator so that either one can be true
+let user3 = true;
+let user4 = false;
+
+if (user3 === true || user4 === true) {
+  console.log('One of the two users have matched');
+}
+
+// I can also mix and match it all in one if statement
+
+let user5 = true;
+let user6 = false;
+let user7 = true;
+let user8 = false;
+
+if (user5 === true && user6 === false && (user7 === true || user8 === true)) {
+  console.log('Hey, it works!');
+} else {
+  console.log('Ah man, they do not match');
+}
